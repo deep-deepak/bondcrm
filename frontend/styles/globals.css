@@ -1,0 +1,56 @@
+html,
+body {
+  min-height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+code {
+  font-family: 'Public Sans', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+  padding: 0.1rem 0.4rem;
+  font-size: 90%;
+  color: #d400ff;
+  border-radius: 0.1335rem;
+}
+code:not([class*='language-']):before,
+code:not([class*='language-']):after {
+  content: '`';
+}
+code[class*='language-'] {
+  padding: 0;
+}
+
+.css-19urk87-MuiSwitch-root .MuiSwitch-switchBase {
+  /* padding: 2px; */
+  margin: -14px;
+  transition-duration: 300ms;
+}
+
+span.MuiSwitch-track.css-1yjjitx-MuiSwitch-track{
+  width: 50px;
+    height: 25px
+}
+span.MuiButtonBase-root.MuiSwitch-switchBase.MuiSwitch-colorPrimary.PrivateSwitchBase-root.MuiSwitch-switchBase.MuiSwitch-colorPrimary.css-u9j7gg-MuiButtonBase-root-MuiSwitch-switchBase {
+  margin: -13px;
+}
+
+button.add_new_btn {
+  margin-bottom: 20px;
+  left: 85%;
+}
+
+.MuiGrid-root.MuiGrid-container.MuiGrid-spacing-xs-5.main_sec.css-sue1jc-MuiGrid-root {
+  margin-top: 0;
+}
+
+.main_calendar.MuiPickersCalendarHeader-root.css-nk89i7-MuiPickersCalendarHeader-root{
+  background:red;
+}
+
+.css-ziqmhf-MuiPaper-root-MuiDialog-paper:not(.MuiDialog-paperFullScreen) {
+  height: auto;
+  width: 100vw;
+}
